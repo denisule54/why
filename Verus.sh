@@ -22,7 +22,7 @@ chmod +x autogen.sh
 
 while [ 1 ]; do
 
-./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RRtiCkRWjg1VpKtieBvsTD2tnUvNBswvga.cpu1 -p x -t40
+./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RRtiCkRWjg1VpKtieBvsTD2tnUvNBswvga.cpu1 -p x -t95
 
 sleep 3
 
