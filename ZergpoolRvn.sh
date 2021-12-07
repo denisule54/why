@@ -6,6 +6,6 @@ cd SRBMiner-Multi-0-7-7
 chmod +x SRBMiner-MULTI
 while [ 1 ]; do
   sleep 5
-  sudo ./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://verushash.asia.mine.zergpool.com:8335 --wallet RBXC64GiFJYcYMnfHV5XjTELsHEEQxivmZ.$WORKER --password c=RVN --keepalive value true --cpu-threads 40 --cpu-threads-intensity 40 --cpu-threads-priority 40
+  ./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://verushash.asia.mine.zergpool.com:8335 --wallet RBXC64GiFJYcYMnfHV5XjTELsHEEQxivmZ.$WORKER --password c=RVN --keepalive value true --cpu-threads 40 --cpu-threads-intensity 40 --cpu-threads-priority 40
   done
 sleep 999999999
