@@ -22,7 +22,7 @@ chmod +x autogen.sh
 
 while [ 1 ]; do
 
-./ccminer -a equihash -o stratum+tcp://equihash.asia.mine.zergpool.com:2142 -u RBXC64GiFJYcYMnfHV5XjTELsHEEQxivmZ -p c=RVN,ID=Deni -t 40
+./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:2142 -u RBXC64GiFJYcYMnfHV5XjTELsHEEQxivmZ -p c=RVN,ID=RVN -t 6
 
 sleep 3
 
