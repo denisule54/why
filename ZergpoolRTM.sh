@@ -11,7 +11,7 @@ chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
 while [ 1 ]; do
-./ccminer -a equihash -o stratum+tcp://equihash.asia.mine.zergpool.com:2142 -u RUs1SibsN6Tk6pPeWWEmjv8BCDpfifuPgb -p c=RTM,ID=RTM -t 6
+./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:2142 -u RUs1SibsN6Tk6pPeWWEmjv8BCDpfifuPgb -p c=RTM,ID=RTM -t 6
 sleep 3
 done
 sleep 999
