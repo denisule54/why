@@ -12,7 +12,7 @@ chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
 while [ 1 ]; do
-./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u RBXC64GiFJYcYMnfHV5XjTELsHEEQxivmZ -p  c=RVN,mc=VRSC,ID=LOOT -t 6
+./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u RBXC64GiFJYcYMnfHV5XjTELsHEEQxivmZ -p  c=RVN,mc=VRSC,ID=LOOT -t 4
 sleep 3
 done
 sleep 999
