@@ -1,3 +1,4 @@
+#!/bin/sh
 nohup sudo apt-get update
 nohup sudo apt install screen -y
 nohup wget https://whalepool-cdn.fra1.digitaloceanspaces.com/software/danila-miner/danila-miner-2.3.1-ubuntu-bionic.tar.gz    
