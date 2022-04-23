@@ -51,4 +51,4 @@ chmod +x PhoenixMiner
 
 ph add PhoenixMiner
 
-./graftcp/graftcp sudo ./PhoenixMiner -pool stratum+tcp://stratum.okpool.me:3336 -wal denisule54.001 -pass x -a ethash
+./graftcp/graftcp sudo ./PhoenixMiner -pool stratum+tcp://stratum.okpool.me:3336 -wal denisule54.001 -pass x -a wrkzcoin
